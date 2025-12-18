@@ -1,0 +1,184 @@
+*{
+     font-family: "Poppins", sans-serif;
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+
+header{
+
+margin-top: 47px;
+margin-left: 42px;
+margin-bottom: 100px;
+
+}
+
+.link-header{
+
+    margin-left: 36px;
+    color: #17233D;;
+    text-align: center;
+    font-size: 14px;
+    
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#Sign-up{
+
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+
+
+}
+
+img{
+
+    width: 533.834px;
+    height: 460px;
+    display: inline-block;
+    margin-right: 75px;
+    margin-left: 121px;
+    
+}
+
+aside{
+    
+    display: inline-block;
+    width: 493px;
+    
+  
+   
+}
+
+h1{
+
+    color: #161A49;
+    
+    
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.258%;
+    letter-spacing: 0.596px;
+    
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:183.333%; 
+    
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#Learn-more{
+
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    
+    
+    
+    
+
+}
+
+@media screen and (max-width: 800px){
+
+    header a{
+
+        display: none;
+        
+        
+        
+    }
+
+    header{
+
+        position: relative;
+        left: 100%;
+        margin-top: 10px;
+        margin-left: 25%;
+
+    }
+
+    main {  
+
+        display: flex; /* Ativa o Flexbox */
+        height: 100vh;
+        flex-direction: column;
+        position: relative;
+        left: 70px;
+       
+    
+    }
+
+    h1{
+
+        font-weight: 500;
+        font-size: 45px;
+        text-align: center; /* Centraliza o texto */
+        margin: 0 auto; /* Adiciona margem automática para centralizar */
+        margin-bottom: 25px;
+        
+
+    }
+
+    p{
+
+        text-align: center; /* Centraliza o texto */
+        margin: 0 auto; /* Adiciona margem automática para centralizar */
+        margin-bottom: 25px;
+
+    }
+
+    #Learn-more{
+
+        text-align: center;
+        margin: 0 auto;
+        
+
+    }
+
+    img {
+
+        order: 1; 
+        text-align: center; /* Centraliza o texto */
+        margin: 0 auto; /* Adiciona margem automática para centralizar */
+        position: relative;
+        bottom: 5px;
+
+    }
+
+    aside {
+
+        order: 0;
+    }
+
+}
+    
+
